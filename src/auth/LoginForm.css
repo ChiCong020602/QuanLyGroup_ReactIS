@@ -1,0 +1,70 @@
+.Login_Form{
+    position: relative;
+    width: 450px;
+    left: calc( 50% - 225px );
+    background-color: rgb(190, 245, 245);
+    height: 550px;
+    top: calc( 50% - 275px );
+    padding: 18px;
+    border-radius: 5%;
+    line-height: 1.4;
+}
+
+#login {
+}
+
+#login table tr{
+    display: block;
+    margin: 12px;
+}
+
+.Login_Form .content{
+    width: 100px;
+}
+
+#login table tr td > input{
+    width: 280px;
+}
+
+.Login_Form button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(76, 183, 241);
+    color: aliceblue;
+    margin: 12px;
+}
+
+.Login_Form .login_img{
+    margin: 8px 0px; 
+}
+
+
+#login table tr td > span{
+    display: block;
+    color: red;
+    font-size: 15px;
+    margin-left: 106px;
+    margin: 0px;
+}
+
+.login_img img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: calc( 20% );
+}
+
+#register table tr{
+    display: block;
+    /* margin: 6px; */
+}
+
+#register table tr td > input{
+    width: 280px;
+}
+
+#register table tr td > span{
+    color: red;
+    font-size: 15px;
+    margin-left: 106px;
+}

@@ -1,0 +1,82 @@
+#body_container{
+    /* background-image: url(../image/background2.jpg);
+    background-size: 100%; */
+}
+
+#dash_head{
+    display: flex;
+    position: relative;
+    top: 0;
+    height: 60px;
+    max-width: 100%;
+    background-color: rgb(197, 197, 197);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.head_image_user{
+    position: absolute;
+    right: 12px;
+    top: 2px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.image_user{
+    width: 40px;
+    border-radius: 50%;
+}
+
+#welcome{
+    color: rgb(49, 142, 255);
+}
+
+#dash_body{
+    display: flex;
+    max-height: max-content;
+}
+
+.body_left{
+    padding: 18px;
+}
+
+.body_left{
+    background-color: #c9ccc8;
+    margin-right: 24px;
+    flex: 30%;
+    border-radius: 10%;
+    justify-items: center;
+}
+
+.body_right{
+    max-width: 100%;
+    flex: 70%;
+}
+
+.body_right_chart{
+    border-radius: 8%;
+    border: 1px #ff0000 solid;
+    margin-bottom: 12px;
+}
+
+.body_right_bottom{
+    display: flex;
+}
+
+.body_right_img{
+    flex: 70%;
+    background-image: url("../image/top-frontend-technologies-2022-desktop.jpg");
+    background-size: 100%;
+    height: auto;
+    margin-right: 12px;
+}
+
+.body_right_pie{
+    flex: 30%;
+    max-width: 250px;;
+    border: 1px solid #ff8080;
+    padding: 4px;
+}
+
+

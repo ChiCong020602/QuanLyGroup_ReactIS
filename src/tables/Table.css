@@ -1,0 +1,47 @@
+#view_table .btn_sort{
+    width: 80px;
+    height: 24px;
+    align-content: center;
+    padding: 0;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#view_table .add_table,
+#view_table .sort_table{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#view_table .option_table{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#view_table .sort_table{
+    position: absolute;
+    right: 12px;
+}
+
+#view_table .sort_table > select {
+    height: 24px;
+}
+
+.btn_refresh{
+    height: 24px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(56, 117, 249);
+    gap: 3px;
+    cursor: pointer;
+}

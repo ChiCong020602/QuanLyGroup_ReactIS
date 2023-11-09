@@ -1,0 +1,45 @@
+#div{
+    display: flex;
+}
+
+.div1{
+    flex: 70%;
+}
+
+.div2{
+    flex: 30%;
+    margin-top: 32px;
+}
+
+li{
+    display: flex;
+}
+
+li p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.values_name{
+    flex: 40%;
+}
+
+.values_one{
+    margin-top: 10px;
+    flex: 30%;
+}
+
+.values_pink{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #ffb1c1;
+}
+
+.values_blue{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #9ad0f5;
+}

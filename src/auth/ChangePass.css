@@ -1,0 +1,41 @@
+#change_pass{
+    position: relative;
+    width: 440px;
+    height: 350px;
+    background-color: rgb(161, 250, 250);
+    top: calc( 50% - 175px );
+    left: calc( 50% - 220px );
+    border-radius: 5%;
+}
+
+#change_pass table tr{
+    display: block;
+    margin: 24px 48px;
+}
+
+#change_pass .content{
+    width: 130px;
+}
+
+#change_pass .btn{
+    background-color: rgb(51, 170, 250);
+    color: aliceblue;
+    display: inline-block;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+#change_pass .btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#change_pass .input_changePass{
+    margin-bottom: 6px;
+}
+
+#change_pass .tr_err{
+    height: 12px;
+    margin: 0px 48px;
+    color: red;
+}

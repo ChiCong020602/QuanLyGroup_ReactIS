@@ -1,0 +1,140 @@
+#clock_form{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+}
+
+.clock {
+    color: #2e2e29;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #314033;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff5,
+                0 0 0 4px #333,
+                0 0 0 6px #fff,
+                0 0 0 8px #fff,
+                0 0 0 10px #fff;
+    position: relative;
+    left: calc(50% - 100px);
+    margin-bottom: 24px;
+}
+
+.clock_number{
+    box-sizing: border-box;
+    border: 1px solid #333;
+    background-color: #fff;
+    border-radius: 15%;
+    color: rgb(7, 168, 255);
+}
+
+.number {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    transform-origin: center;
+    text-align: center;
+}
+
+.number1 {
+    width: 24px;
+    top: 12px; 
+    right: 42px;
+}
+
+.number2 {
+    width: 24px;
+    top: 42px;
+    right: 12px;
+}
+
+.number3 {
+    width: 24px;
+    left: calc(100% - 24px);
+    top: calc(50% - 12px);
+}
+
+.number4 {
+    width: 24px;
+    bottom: 42px;
+    right: 12px;
+}
+
+.number5 {
+    width: 24px;
+    bottom: 12px;
+    right: 42px;
+}
+
+.number6 {
+    width: 24px;
+    top: calc(100% - 24px);
+    left: calc(50% - 12px);
+}
+
+.number7 {
+    width: 24px;
+    bottom: 12px;
+    left: 42px;
+}
+
+.number8 {
+    width: 24px;
+    bottom: 42px;
+    left: 12px;
+}
+
+.number9 {
+    width: 24px;
+    top: calc(50% - 12px);
+}
+
+.number10 {
+    width: 24px;
+    top: 42px;
+    left: 12px;
+}
+
+.number11 {
+    width: 24px;
+    top: 12px;
+    left: 42px;
+}
+
+.number12 {
+    width: 24px;
+    left: calc(50% - 12px);
+}
+
+
+.hand {
+    position: absolute;
+    transform-origin: center;
+}
+
+.hour-hand {
+    background-color: #000000;
+    height: 4px;
+    width: 60px;
+    top: 50%;
+    left: calc(50% - 30px);
+    transform: rotate(0deg);
+}
+
+.minute-hand {
+    background-color: #e2e961;
+    height: 3px;
+    width: 80px;
+    top: 50%;
+    left: calc(50% - 40px);
+    transform: rotate(0deg);
+}
+
+.second-hand {
+    background-color: #f00;
+    height: 2px;
+    width: 100px;
+    top: 50%;
+    left: calc(50% - 50px);
+    transform: rotate(0deg);
+}

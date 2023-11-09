@@ -1,0 +1,38 @@
+#profile_css{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 500px;
+    top: calc( 50% - 250px );
+    left: calc( 50% - 300px );
+    background-color: rgb(155, 243, 255);
+    border-radius: 2%;
+}
+
+#profile_css .left{
+    flex: 40%;
+}
+
+#profile_css .left img{
+    position: relative;
+    height: 280px;
+    top: calc( 50% - 140px );
+    margin-left: 12px;
+    padding: 12px;
+}
+
+#profile_css .right{
+    flex: 60%;
+    margin: 24px;
+    background-color: aliceblue;
+    border-radius: 2%;
+}
+
+#profile_css .content{
+    width: 100%;
+    justify-content: center;
+}
+
+#profile_css .content p{
+    color: rgb(0, 67, 223);
+}

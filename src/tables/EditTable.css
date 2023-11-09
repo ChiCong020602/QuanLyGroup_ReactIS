@@ -1,0 +1,13 @@
+.edit_lable_input{
+    display: flex;
+    margin: 12px 0px;
+}
+
+.edit_content_name{
+    flex: 20%;
+    padding: 8px;
+}
+
+.edit_input_value{
+    flex: 80%;
+}
